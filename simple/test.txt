@@ -1,0 +1,10 @@
+rows=3
+columns=3
+Horizontal
+#,#,#
+9,0,0
+6,0,0
+Vertical
+#,12,3
+#,0,0
+#,0,0
