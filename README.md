@@ -18,7 +18,7 @@ The output will be of the same format as the input, except that all the ‘0’s
 It is assumed that the input is valid, and a unique solution exists for it. If multiple valid solutions exist, then only one valid solution will be returned.
 
 ## How to run?
-Once the `kakuro.py` file is available locally, it can run be run by executing the command:  
+Once the `kakuro.py` file is available locally, it can be executed as followes:  
   ```zsh
   python3 kakuro.py -i <path/to/input-file> -o <path/to/output-file>
   ```
