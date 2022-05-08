@@ -6,9 +6,9 @@ Kakuro is a kind of logic puzzle that is often referred to as a mathematical tra
 
 ## What all were implemented?
 1. Input checking to handle unsupported input format.
-2. AC-3 algorithm was implemented which reduced the domain of each variables.
-3. A generic Bactracking Search (BS) was implemented, without any heuristics. 
-4. The BS could also be used with MAC (Maintaining Arc Consistency) which calls AC-3 for related variables if BS alters the domain of some variable. 
+2. AC-3 algorithm to reduce the domain of each variable.
+3. A generic Backtracking Search (BS) algorithm without any heuristics.
+4. MAC (Maintaining Arc Consistency) algorithm which calls AC-3 for related variables if BS alters the domain of some variable.
 
 ## Input-output format
 The puzzle supported by this project is in the format as given in ``` samples/input0.txt ```. First two lines indicates number of rows and columns respectively. The horizontal and vertical represents one by one filling of respective cells in the row or column format of the board. ‘#’ represents black cells that do not have to be filled. Empty cells in the puzzle that need to be filled with a number are represented as ‘0’.
